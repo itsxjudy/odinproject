@@ -1,0 +1,152 @@
+body  {
+    font-family: Roboto;
+    margin: 0;
+}
+header, footer {
+    background-color: #1F2937;
+    padding: 0 10%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.description p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+button  {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 24px;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.squareone {
+    min-width: 52%;
+}
+
+.description img {
+    max-width: 60%;
+    max-height: 100%;
+}
+
+.squareone p {
+    margin-top: -25px;
+    margin-bottom: 5px;
+}
+
+.containerone h1 {
+   text-align: center;
+}
+
+.containerone img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.information-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:
+}
+
+.containerone ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px 150px;
+}
+
+.information-item li {
+    font-size: 12px;
+    margin: 5px 30px;
+    padding: 0px 25px;
+}
+
+.containerone {
+    margin-bottom: 80px;
+}
+
+.containertwo {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding: 30px 190px;
+    margin-bottom: 75px;
+}
+
+.author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+}
+
+.containerthree {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding: 15px 75px;
+}
+
+.containerthree h1 {
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.containerthree button {
+    border: 1px solid white;
+    margin: auto 0px;
+    padding: 5px 25px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 8px 16px;
+    text-align: center;
+    color: white;
+}
